@@ -1,0 +1,44 @@
+{
+  "books": [
+    {
+      "title": "In Search of Lost Time",
+      "description": "Swann's Way, the first part of A la recherche de temps perdu, Marcel Proust's seven-part cycle, was published in 1913. In it, Proust introduces the themes that run through the entire work.",
+      "author": "Marcel Proust",
+      "image":"https://images-na.ssl-images-amazon.com/images/I/51A685AMYoL._SL160_.jpg",
+      "id": 1,
+      "rating": 3
+    },
+    {
+      "title": "Don Quixote",
+      "description": "The Ingenious Gentleman Sir Quixote of La Mancha (Modern Spanish: El Ingenioso Hidalgo Don Quijote de la Mancha, pronounced [el iŋxeˈnjoso iˈðalɣo ðoŋ kiˈxote ðe la ˈmantʃa]), or just Don Quixote (/ˌdɒŋ kiːˈhoʊti/, US: /-teɪ/,[1] Spanish: [doŋ kiˈxote] (About this soundlisten)), is a Spanish novel by Miguel de Cervantes. Published in two parts, in 1605 and 1615, Don Quixote is the most influential work of literature from the Spanish Golden Age and the entire Spanish literary canon. As a founding work of modern Western literature, it regularly appears high on lists of the greatest works of fiction ever published, such as the Bokklubben World Library collection that cites Don Quixote as the authors' choice for the best literary work ever writte",
+      "author": "Miguel de Cervantes",
+      "image":"https://images-na.ssl-images-amazon.com/images/I/41u9Jedk-mL._SL160_.jpg",
+      "id": 2,
+      "rating": 2
+    },
+    {
+      "title": "War and Peace",
+      "description": "War and Peace (pre-reform Russian: Война и миръ; post-reform Russian: Война и мир, translit. Vojna i mir is a novel by the Russian author Leo Tolstoy. It is regarded as a central work of world literature and one of Tolstoy's finest literary achievements. The novel chronicles the history of the French invasion of Russia and the impact of the Napoleonic era on Tsarist society through the stories of five Russian aristocratic families. Portions of an earlier version, titled The Year 1805, were serialized in The Russian Messenger from 1865 to 1867. The novel was first published in its entirety in 1869.",
+      "author": "Leo Tolstoy",
+      "image":"https://images-na.ssl-images-amazon.com/images/I/51J1nb00FLL._SL160_.jpg",
+      "id": 3,
+      "rating": 2
+    },
+    {
+      "title": "The Great Gatsby",
+      "description": "The Great Gatsby is a 1925 novel written by American author F. Scott Fitzgerald that follows a cast of characters living in the fictional towns of West Egg and East Egg on prosperous Long Island in the summer of 1922. The story primarily concerns the young and mysterious millionaire Jay Gatsby and his quixotic passion and obsession with the beautiful former debutante Daisy Buchanan. Considered to be Fitzgerald's magnum opus, ",
+      "author": "F. Scott Fitzgerald",
+      "image":"https://images-na.ssl-images-amazon.com/images/I/51vv75oglyL._SL160_.jpg",
+      "id": 4,
+      "rating": 4
+    },
+    {
+      "title": "Moby Dick",
+      "description": "First published in 1851, Melville's masterpiece is, in Elizabeth Hardwick's words, the greatest novel in American literature. The saga of Captain Ahab and his monomaniacal pursuit of the white",
+      "author": "Herman Melville",
+      "image":"https://images-na.ssl-images-amazon.com/images/I/41h1CVFjjdL._SL160_.jpg",
+      "id": 5,
+      "rating": 1
+    }
+  ]
+}

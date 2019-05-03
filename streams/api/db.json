@@ -1,0 +1,25 @@
+{
+  "streams": [
+    {
+      "title": "New Stream",
+      "description": "This is first created stream",
+      "id": 1
+    },
+    {
+      "title": "gbfhnfghnf",
+      "description": "fgjnghjghkjg",
+      "id": 2
+    },
+    {
+      "title": "new stream",
+      "description": "Edited",
+      "id": 3
+    },
+    {
+      "title": "rthrtf",
+      "description": "hbfghbg",
+      "userId": "104900497802909665144",
+      "id": 4
+    }
+  ]
+}

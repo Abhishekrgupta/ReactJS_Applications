@@ -1,0 +1,53 @@
+import React from 'react';
+import BookList from './BookList'
+import booksapi from '../api/books';
+import BookDetails from './bookDetails';
+import GoogleAuth from './GoogleAuth';
+class App extends React.Component{
+
+  state = {
+    books: [],
+    selectedBook: null,
+    isSignedIn: null
+  }
+
+  componentDidMount = async () => {
+    
+    const response = await booksapi.get('/books');
+   // console.log(response.data);
+    this.setState({books: response.data});
+    console.log(this.state.isSignedIn);
+  }
+
+  onBookSelect = (book) => { 
+    this.setState({
+      selectedBook: book
+    });
+  }
+
+
+
+  render(){
+    return(
+      <div className="ui container" style={{marginTop:'20px'}}>
+      <div className="ui right floated header">
+        <GoogleAuth isSignedIn={this.state.isSignedIn}/>
+      </div>
+      <div>
+          <BookList 
+          onBookSelect = {this.onBookSelect}
+          books = {this.state.books}
+          />
+        </div>
+        <div className="ui section divider"></div>
+        <div className="ui centered" style={{marginTop:'20px'}}>
+          <div className="card">
+            <BookDetails selectedBook={this.state.selectedBook}/>
+          </div>    
+        </div>       
+      </div>
+    );
+  }
+}
+
+export default App;
