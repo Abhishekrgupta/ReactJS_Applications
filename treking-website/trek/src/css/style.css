@@ -1,0 +1,25 @@
+.image-size {
+  height: 450px;
+  width: 1855px;
+}
+
+.img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-header {
+  padding-bottom: 10px;
+  font-size: 35px;
+}
