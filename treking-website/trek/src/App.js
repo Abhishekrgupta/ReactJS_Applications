@@ -13,7 +13,7 @@ class App extends React.Component {
   };
   render() {
     return (
-      <div>
+      <div className="scroll-container">
         <div className="img-container">
           <img
             className="image-size"
